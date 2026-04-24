@@ -17,3 +17,15 @@ class TaskyApp extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+///native splash
+///icon launcher
+///app name
+///assets folder
+///folder core
+///colors - font - images
+///common - widgets - utils
