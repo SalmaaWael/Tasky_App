@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
-void main() {
   runApp(const TaskyApp());
 }
 
@@ -17,3 +23,15 @@ class TaskyApp extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+///native splash
+///icon launcher
+///app name
+///assets folder
+///folder core
+///colors - font - images
+///common - widgets - utils
