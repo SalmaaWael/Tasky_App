@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:tasky_app/auth/login_Screen.dart';
 import 'package:tasky_app/screens/home/home_screen.dart';
+import 'package:tasky_app/screens/onboarding/onboarding_screen.dart';
 import 'auth/register_screen.dart';
 import 'firebase_options.dart';
 void main() async {
@@ -20,11 +21,12 @@ class TaskyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: LoginScreen.routeName,
+      initialRoute: OnboardingScreen.routeName,
       routes: {
         LoginScreen.routeName: (context)=> LoginScreen(),
         RegisterScreen.routeName: (context)=> RegisterScreen(),
         HomeScreen.routeName: (context)=> HomeScreen(),
+        OnboardingScreen.routeName: (context) => const OnboardingScreen(),
 
       },
     );
