@@ -8,5 +8,8 @@ abstract class AssetsManager{
   static const String onboard1="$base/onboard1.png";
   static const String onboard2="$base/onboard2.png";
   static const String onboard3="$base/onboard3.png";
+  static const String flag="$base/flag.png";
+  static const String send="$base/send.png";
+  static const String timer="$base/timer.png";
 
 }

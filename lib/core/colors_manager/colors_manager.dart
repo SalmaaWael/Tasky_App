@@ -4,6 +4,7 @@ abstract class ColorsManager{
   static const Color primaryColor =Color(0xff5F33E1);
   static const Color textLargeColor =Color(0xff24252C);
   static const Color textSmallColor =Color(0xff6E6A7C);
+  static const Color grey =Color(0xffE0DFE3);
   static const Color waitingColor = Color(0xffFFEDE8);
   static const Color inProgressColor = Color(0xffE3F2FF);
   static const Color finishedColor = Color(0xffE8F5E9);

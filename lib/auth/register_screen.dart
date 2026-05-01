@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../core/colors_manager/colors_manager.dart';
 import '../core/utils/dialog_app.dart';
 import '../widgets/material_button_widget.dart';
-import '../widgets/text_form_feild.dart';
+import '../widgets/text_form_feild_widget.dart';
 import 'dart:developer';
 
 class RegisterScreen extends StatelessWidget {
